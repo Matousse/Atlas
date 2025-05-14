@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FF5D1F;
+}
+
+input[type="number"] {
+  transition: all 0.2s ease-in-out;
+}

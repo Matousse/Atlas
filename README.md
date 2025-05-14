@@ -1,4 +1,1 @@
-# Atlas
-Atlas VNFT marketplace
-
-npm run dev
+npm run dev will work
